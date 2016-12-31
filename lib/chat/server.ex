@@ -15,7 +15,7 @@ defmodule Chat.Server do
   end
 
   defp via_tuple(room_name) do
-    {:via, Chat.Registry, {:chat_room, room_name}}
+    {:via, :gproc, {:n, :l, {:chat_room, room_name}}}
   end
 
   # SERVER
