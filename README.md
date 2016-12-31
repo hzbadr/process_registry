@@ -1,6 +1,7 @@
 # Chat
 
-**TODO: Add description**
+** Following this article
+https://m.alphasights.com/process-registry-in-elixir-a-practical-example-4500ee7c0dcc#.yhtj6api7
 
 ## Installation
 
@@ -21,4 +22,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:chat]]
     end
     ```
-
